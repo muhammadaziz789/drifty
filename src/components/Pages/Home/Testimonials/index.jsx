@@ -1,10 +1,7 @@
 import CCollapse from "components/UI/CCollapse";
-import useTranslation from "next-translate/useTranslation";
 import { useMemo } from "react";
 
 export const Testimonials = () => {
-  const { t } = useTranslation();
-
   const list = useMemo(() => {
     return [
       {

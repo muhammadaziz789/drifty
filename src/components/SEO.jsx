@@ -4,7 +4,7 @@ import useTranslation from "next-translate/useTranslation";
 
 export default function SEO({ title, image = "" }) {
   const projectName = "Drifty";
-  const { t } = useTranslation();
+  const { t } = useTranslation("common");
   return (
     <Head>
       <meta
