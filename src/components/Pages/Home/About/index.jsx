@@ -17,8 +17,8 @@ export const About = () => {
         </h1>
         <p className="text-sm text-gray mt-2">
           <span className="font-[600]">Drifty</span> online magazinida faqat
-          mahsulotlarni sotmaymiz; biz drift avtomobillarining muxlislari uchun
-          misli ko'rilmagan sayohatni yaratmoqdamiz.
+          mahsulotlarni sotibgina qolmay; biz avtomobil muxlislari uchun ajoyib
+          sayohat yaratmoqdamiz.
         </p>
       </div>
     </div>
