@@ -3,7 +3,11 @@ import { useRouter } from "next/router";
 
 const Title = ({ title }) => {
   const { t } = useTranslation("common");
-  return title && <h1 className="text-center mb-10 text-[30px]">{t(title)}</h1>;
+  return (
+    title && (
+      <h1 className="text-center mb-10 text-[30px] text-dark">{t(title)}</h1>
+    )
+  );
 };
 
 const Card = ({ element, location }) => {

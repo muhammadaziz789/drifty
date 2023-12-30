@@ -29,7 +29,7 @@ export default function LinkGenerator({
             )}
             {text && (
               <p
-                className={`${styles.text} text-[13px] font-semibold text-baseBlack ${textClasses}`}
+                className={`${styles.text}  text-[13px] font-semibold text-baseBlack ${textClasses}`}
               >
                 {t(text, `${translation}:${text}`)}
               </p>

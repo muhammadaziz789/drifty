@@ -50,7 +50,9 @@ export default function FooterDesktop({
               </div>
             </div>
             <div className={`${cls.menu} pl-[20px] minDesktop:pl-[60px]`}>
-              <h2 className={`${cls.gridTitle} h-[80px]`}>{t("menus")}</h2>
+              <h2 className={`${cls.gridTitle} h-[80px] text-dark`}>
+                {t("menus")}
+              </h2>
               <div className="flex flex-col gap-[24px]">
                 {links?.map((item, ind) => (
                   <LinkGenerator
@@ -63,7 +65,9 @@ export default function FooterDesktop({
               </div>
             </div>
             <div className={`${cls.contact}`}>
-              <h2 className={`${cls.gridTitle} h-[80px]`}>{t("connection")}</h2>
+              <h2 className={`${cls.gridTitle} h-[80px] text-dark`}>
+                {t("connection")}
+              </h2>
               <div className="flex flex-col gap-[24px]">
                 {contactsList?.map((item, ind) => (
                   <div key={ind} className="flex w-full">

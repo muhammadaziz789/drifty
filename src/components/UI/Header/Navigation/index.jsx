@@ -15,10 +15,10 @@ export const HeaderNavigation = ({ links = [] }) => {
                 icon={link.icon}
                 width={"24"}
                 height={"24"}
-                textClasses={`${link.active ? "text-main" : "text-black"} ml-2`}
+                textClasses={`${link.active ? "text-dark" : "text-black"}`}
               />
               {link.active && (
-                <div className="w-full h-[2px] absolute left-0 -bottom-4 bg-main rounded-sm"></div>
+                <div className="w-full h-[2px] absolute left-0 -bottom-4 bg-dark rounded-sm"></div>
               )}
             </div>
           ))}

@@ -10,6 +10,10 @@ import ClearIcon from "@mui/icons-material/Clear";
 
 const extraLink = [
   {
+    text: "discounts",
+    link: "discount",
+  },
+  {
     text: "about_us",
     link: "/about-us",
   },

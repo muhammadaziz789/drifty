@@ -15,6 +15,10 @@ import { useIsMobile } from "hooks/useMobile";
 
 const links = [
   {
+    text: "discounts",
+    link: "discount",
+  },
+  {
     text: "about_us",
     link: "about-us",
   },

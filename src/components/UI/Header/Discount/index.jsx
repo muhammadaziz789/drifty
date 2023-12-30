@@ -41,31 +41,19 @@ export const HeaderDiscount = () => {
         >
           <p
             ref={firstText}
-            className="slider-text text-white text-[15px] text-[11px] uppercase tracking-wider text-center"
+            className="slider-text text-white text-[12px] uppercase tracking-wider text-center"
           >
-            Instagramda oxirgi postimizga{" "}
-            <span className="font-[700] text-[15px] tracking-normal">
-              1 ta komment
-            </span>{" "}
-            yozish orqali{" "}
-            <span className="font-[700] text-[15px] tracking-normal">
-              10% chegirmaga
-            </span>{" "}
-            ega bo'ling
+            <span className="font-[700]">Instagramda</span> oxirgi postimizga{" "}
+            <span className="font-[700]">do'stingizni belgilash</span> orqali{" "}
+            <span className="font-[700]">10% chegirmaga</span> ega bo'ling
           </p>
           <p
             ref={secondText}
-            className="mobile:hidden slider-text text-white text-[15px] text-[11px] uppercase tracking-wider text-center"
+            className="mobile:hidden slider-text text-white uppercase tracking-wider text-center text-[12px]"
           >
             Instagramda oxirgi postimizga{" "}
-            <span className="font-[700] text-[15px] tracking-normal">
-              1 ta komment
-            </span>{" "}
-            yozish orqali{" "}
-            <span className="font-[700] text-[15px] tracking-normal">
-              10% chegirmaga
-            </span>{" "}
-            ega bo'ling
+            <span className="font-[700]">1 ta komment</span> yozish orqali{" "}
+            <span className="font-[700]">10% chegirmaga</span> ega bo'ling
           </p>
         </div>
       </Container>
