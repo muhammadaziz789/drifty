@@ -39,7 +39,7 @@ export const Testimonials = () => {
         children: [
           {
             title:
-              "Biz Toshkent bo'ylab tekin va tezkor Dostavka xizmatini ta'minlaymiz. Tovarlar Toshkent bo'ylab 1-2 ish kunida yetkazib beriladi.",
+              "Biz Toshkent bo'ylab tekin va tezkor Dostavka xizmatini ta'minlaymiz. Tovarlar Toshkent bo'ylab 1 ish kunida yetkazib beriladi.",
           },
         ],
       },
