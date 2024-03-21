@@ -51,11 +51,11 @@ export function Footer() {
       },
       {
         icon: <TelegramIcon />,
-        link: "https://t.me/drifty_uz",
+        link: "https://t.me/driftyuz",
       },
       {
         icon: <TiktokIcon />,
-        link: "https://www.tiktok.com/@tekkid_uz",
+        link: "https://www.tiktok.com/@drifty.uz",
       },
       {
         icon: <FacebookIcon />,
@@ -85,11 +85,11 @@ export function Footer() {
         text: "+998 (95) 661 28 30",
         link: "tel:+998956612830",
       },
-      {
-        icon: <MailIcon />,
-        text: "tekkid.uz@gmail.com",
-        link: "mailto:tekkid.uz@gmail.com",
-      },
+      // {
+      //   icon: <MailIcon />,
+      //   text: "tekkid.uz@gmail.com",
+      //   link: "mailto:tekkid.uz@gmail.com",
+      // },
     ];
     return res;
   }, []);

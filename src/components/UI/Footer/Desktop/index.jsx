@@ -23,7 +23,7 @@ export default function FooterDesktop({
                 <Link href="/">
                   <a className={cls.logo}>
                     <img
-                      src="/line-transparent-black.png"
+                      src="/line-transparent.png"
                       alt="logo"
                       // width={200}
                     />

@@ -4,9 +4,11 @@ import HeaderMobileMenu from "./Menu";
 import CLinkGenerator from "components/UI/CLinkgenerator";
 import { InstagramIcon, TelegramIcon, TiktokIcon } from "components/svg";
 import { useMemo } from "react";
+import { useRouter } from "next/router";
 
 export const HeaderTop = ({ links = [] }) => {
   const mobile = useIsMobile("mobile");
+  const router = useRouter();
 
   const socialMedias = useMemo(() => {
     const res = [
@@ -16,11 +18,11 @@ export const HeaderTop = ({ links = [] }) => {
       },
       {
         icon: <TelegramIcon />,
-        link: "https://t.me/drifty_uz",
+        link: "https://t.me/driftyuz",
       },
       {
         icon: <TiktokIcon />,
-        link: "https://www.tiktok.com/@tekkid_uz",
+        link: "https://www.tiktok.com/@drifty.uz",
       },
     ];
     if (mobile) return [res[0]];
@@ -33,7 +35,7 @@ export const HeaderTop = ({ links = [] }) => {
         <Container>
           <div className="flex items-center justify-between text-gray text-[13px] tracking-widest font-[700] flex-col md:flex-row space-y-1">
             <p>Savol yoki muammo bormi?</p>
-            <a href="tel:+998956612830">Biz bilan bog'laning: (95) 661 28 30</a>
+            <a href="tel:+998994912830">Biz bilan bog'laning: (99) 491 28 30</a>
           </div>
         </Container>
       </div>
@@ -42,15 +44,14 @@ export const HeaderTop = ({ links = [] }) => {
           <div className="py-3 flex items-center justify-between">
             {mobile && <HeaderMobileMenu links={links} />}
 
-            <Link href="/">
-              <a>
-                <img
-                  src="/line-transparent-black.png"
-                  alt="logo"
-                  // width={mobile ? 140 : 200}
-                />
-              </a>
-            </Link>
+            <div onClick={() => router.push("/")}>
+              <img
+                src="/line-transparent.png"
+                alt="logo"
+                // width={mobile ? 140 : 200}
+              />
+            </div>
+
             <div className={`flex space-x-3`}>
               {socialMedias?.map((item, ind) => (
                 <CLinkGenerator key={ind} link={item.link}>

@@ -14,7 +14,7 @@ export default function HeaderDesktop() {
       className={`border-b border-borderDarker ${classNames(styles.header)}`}
     >
       <HeaderTop links={links} />
-      <HeaderDiscount />
+      {/* <HeaderDiscount /> */}
       <HeaderNavigation links={links} />
     </header>
     // </Headroom>
