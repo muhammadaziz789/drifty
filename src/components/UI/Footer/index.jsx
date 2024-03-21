@@ -3,7 +3,6 @@ import {
   FacebookIcon,
   TwitterIcon,
   InstagramIcon,
-  MailIcon,
   PhoneIcon,
   TiktokIcon,
   YoutubeIcon,
