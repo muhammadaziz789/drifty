@@ -35,7 +35,7 @@ export const HeaderTop = ({ links = [] }) => {
         <Container>
           <div className="flex items-center justify-between text-gray text-[13px] tracking-widest font-[700] flex-col md:flex-row space-y-1">
             <p>Savol yoki muammo bormi?</p>
-            <a href="tel:+998994912830">Biz bilan bog'laning: (99) 491 28 30</a>
+            <a href="tel:+998956612830">Biz bilan bog'laning: (95) 661 28 30</a>
           </div>
         </Container>
       </div>
