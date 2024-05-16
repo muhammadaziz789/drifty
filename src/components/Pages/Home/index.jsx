@@ -27,7 +27,7 @@ export default function HomePageWrapper() {
         loading={loading}
       />
       <About />
-      <Testimonials />
+      {/* <Testimonials /> */}
     </Container>
   );
 }
