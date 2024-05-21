@@ -50,9 +50,9 @@ export default function Layout({ children }) {
         <CSkeleton isArray={false} classes="w-full z-[98]" height={900} />
       ) : (
         <>
-          {/* {!noHeaderPages?.includes(router.pathname) ? <Header /> : ""} */}
+          {!noHeaderPages?.includes(router.pathname) ? <Header /> : ""}
           {children}
-          {/* {!noFooterPages.includes(router.pathname) ? <Footer /> : ""} */}
+          {!noFooterPages.includes(router.pathname) ? <Footer /> : ""}
 
           {alertData?.title && <CAlert data={alertData} />}
         </>
